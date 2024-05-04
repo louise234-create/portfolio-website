@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
 
@@ -24,7 +24,8 @@
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-        
+                    <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li>
+
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -39,19 +40,19 @@
 
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Louise</span><br> Seeking Opportunity</h1>
+                <h2 class="home__title">Hi,<br>I'am <span class="home__title-color">Louise</span><br> Freelancer</h2>
 
                 <a href="#contact" class="button">Contact</a>
             </div>
 
             <div class="home__social">
-                <a href="https://www.linkedin.com/in/debashis-satpathy-532736113/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/louise-sinadjan-405308304/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://www.facebook.com/louise.sinadjan/" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.instagram.com/louise20000s/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
             </div>
 
             <div class="home__img">
-                <img src="2x2.JPG" alt="">
+                <img src="home.JPG" alt="">
             </div>
         </section>
 
@@ -65,9 +66,9 @@
                 </div>
 
                 <div>
-                    <h2 class="about__subtitle">I'am Louise Sinadjan</h2>
+                    <h2 class="about__subtitle">I'am Louise Laguna Sinadjan</h2>
                     <p class="about__text">
-                        This is my official website portfolio so showes my details
+                        This is my official website portfolio to showed my details. I work as a Video Editor in Real Estate Company for 7 months and I`m so excited to explore new opportunities for my career growth.
 
                     </p>
                 </div>
@@ -113,6 +114,33 @@
             </div>
         </section>
 
+        <section class="work section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__box">
+
+                    <h3 class="portfolio__subtitle">Video Editor</h3>
+                    <span class="portfolio__name">Real Estate Video Editor  (Aug 2023 - April 2024)</span>
+                </div>
+                <div class="row">
+
+                    <div class="column">
+                        <img src="work2.jpg" width="100%;" />
+                    </div>
+                    <div class="column">
+                        <img src="work3.jpg" width="100%;" />
+                    </div>
+                    <div class="column">
+                        <img src="work4.jpg" width="100%;" />
+                    </div>
+
+
+
+
+        </section>
+
+
 
 
 
@@ -120,15 +148,18 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form action="https://getform.io/f/4ece6f5c-e9c3-41bb-94db-12156ab4bedd" method="POST" class="contact__form">
-                    <input type="text" placeholder="Name" name="name" class="contact__input">
-                    <input type="mail" placeholder="Email" name="email" class="contact__input">
-                    <textarea cols="0" rows="10" name="message" class="contact__input"></textarea>
-                    <input type="submit" value="Enquire" class="contact__button button">
+                <form action="https://api.web3forms.com/submit" method="POST" class=" contact-left">
+                    <input type="hidden" name="access_key" value="fd34c307-fcbe-4278-a110-9bbabe1fab95">
+                    <input type="text" name="Name" placeholder="name" class="contact__input">
+                    <input type="mail" name="Email" placeholder="email" class="contact__input">
+                    <textarea cols="0" rows="10" name="message" placeholder="message" class="contact__input"></textarea>
+                    <input type="submit" value="Submit" class="contact__button button">
                 </form>
-            </div>
+                
         </section>
     </main>
+    
+
 
 
     <footer class="footer">
